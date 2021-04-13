@@ -33,7 +33,7 @@ class TodoItem extends React.Component {
 				<Button
 					color="primary"
 					size="small"
-					variant="outlined"
+					variant="contained"
 					onClick={() => this.props.completeTodo(this.index)}
 					style={{ width: '120px' }}
 				>
@@ -42,7 +42,7 @@ class TodoItem extends React.Component {
 				<Button
 					color="secondary"
 					size="small"
-					variant="outlined"
+					variant="contained"
 					onClick={() => this.props.removeTodo(this.index)}
 					style={{ width: '120px', marginLeft: '10px' }}
 				>

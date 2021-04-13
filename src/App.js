@@ -22,9 +22,10 @@ function App() {
 				<Grid
 					item
 					style={{
-						border: '0.2px solid gray',
+						border: '2px solid gray',
 						borderRadius: '10px',
 						padding: '5vh',
+						backgroundColor: '#EEEEEE',
 					}}
 				>
 					<Todo />
