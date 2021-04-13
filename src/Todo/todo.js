@@ -52,7 +52,6 @@ class Todo extends React.Component {
 
 	render() {
 		const todos = this.state.todos;
-		console.log(todos);
 		return (
 			<Grid
 				container
