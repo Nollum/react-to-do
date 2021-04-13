@@ -1,4 +1,4 @@
-import Todo from './ToDo/todo';
+import Todo from './Todo/todo';
 import { Grid } from '@material-ui/core';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
